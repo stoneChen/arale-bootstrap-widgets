@@ -1,0 +1,33 @@
+{
+  "family": "value",
+  "name": "form-select",
+  "version": "1.0.0",
+  "description": "value-select",
+  "homepage": "https://github.com/chenshidong/form-select",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/form-select.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "form-select.js"
+    ],
+    "alias": {
+        "$":"$",
+        "value-form-widget":"value/form/1.0.0/form-widget",
+        "select2": "jquery/select2/3.4.5/select2-zh-cn",
+        "select2-css": "jquery/select2/3.4.5/select2.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

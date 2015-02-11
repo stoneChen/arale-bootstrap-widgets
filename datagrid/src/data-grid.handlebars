@@ -1,0 +1,43 @@
+<div class="data-grid">
+    {{#if topOperation}}
+        <div class="top-operation">
+            {{!按钮组}}
+            {{#if topOperation.btnsGroup}}
+                <div class="btn-group pull-right">
+                    {{#each topOperation.btnsGroup}}
+                        <a class="btn btn-default" href="{{href}}" data-btnkey="{{btnkey}}">{{text}}</a>
+                    {{/each}}
+                </div>
+            {{/if}}
+            {{!搜索组}}
+            {{#if topOperation.searchGroup}}
+                <div class="search-group clearfix">
+                </div>
+            {{/if}}
+            {{!过滤组}}
+            {{#if topOperation.filtersGroup}}
+                <div class="filter-group form-horizontal">
+                </div>
+            {{/if}}
+        </div>
+    {{/if}}
+    <div class="datagrid-result mrgb10">
+        <table class="table table-bordered table-hover">
+            <thead>
+            <tr>
+                {{#each tableCfg.cols}}
+                    <th width="{{width}}">{{text}}</th>
+                {{/each}}
+                {{#if tableCfg.operators}}
+                    <th width="{{tableCfg.operators.col.width}}">{{tableCfg.operators.col.text}}</th>
+                {{/if}}
+            </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+
+        </table>
+        <div class="paginator-wrapper pull-right"></div>
+    </div>
+</div>

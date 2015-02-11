@@ -1,0 +1,14 @@
+<div class="pagenation-component">
+{{#if pagination}}
+    <div class="pagenation-info">
+        当前第 {{pagination.currentPage}} 页 , 共 {{pagination.totalPages}} 页 , 总计 {{pagination.totalCount}} 条
+    </div>
+    <ul class="pagination">
+        {{#each pagination.pages}}
+            <li class="{{stat}}">
+                <a href="javascript:void({{target}})" data-target="{{target}}">{{{text}}}</a>
+            </li>
+        {{/each}}
+    </ul>
+{{/if}}
+</div>

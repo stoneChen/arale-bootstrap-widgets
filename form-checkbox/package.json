@@ -1,0 +1,31 @@
+{
+  "family": "value",
+  "name": "form-checkbox",
+  "version": "1.0.0",
+  "description": "value-form-checkbox",
+  "homepage": "https://github.com/chenshidong/form-checkbox",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/form-checkbox.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "form-checkbox.js"
+    ],
+    "alias": {
+        "$":"$",
+        "value-form-widget":"value/form/1.0.0/form-widget"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

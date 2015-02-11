@@ -1,0 +1,18 @@
+<div class="form-group {{#if verticalLayout}}vertical-form-group{{/if}}">
+    <label class="col-xs-2 control-label {{label.requiredCls}}">{{label.text}}</label>
+
+    <div class="col-xs-{{colWidth}}">
+        <input type="{{type}}" class="form-control" name="{{name}}" value="{{value}}" {{#each nodeData}}{{@key}}="{{this}}"{{/each}} />
+    </div>
+    <div class="col-xs-2">
+        <button type="button" class="btn btn-primary fetch-valicode-btn">获取验证码<span></span></button>
+    </div>
+    <div class="col-xs-3">
+        <div class="form-control just-show">
+            {{#if mobileTip}}
+                <span class="glyphicon glyphicon-ok text-success"></span>
+            {{/if}}
+            <span class="email-tip   {{#if mobileTip}}text-success{{/if}}">{{explain}}</span>
+        </div>
+    </div>
+</div>

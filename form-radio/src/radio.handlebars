@@ -1,0 +1,11 @@
+<div class="form-group">
+    <label class="col-xs-2 control-label {{label.requiredCls}}">{{label.text}}</label>
+
+    <div class="col-xs-10">
+        {{#each dataList}}
+            <label class="radio-inline">
+                <input type="radio" name="{{../name}}" value="{{value}}" {{#if ../disabled}}disabled{{/if}} {{dealRadioChecked value ../checked}}/>{{label}}
+            </label>
+        {{/each}}
+    </div>
+</div>

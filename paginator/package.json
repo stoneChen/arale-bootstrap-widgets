@@ -1,0 +1,31 @@
+{
+  "family": "value",
+  "name": "paginator",
+  "version": "1.0.0",
+  "description": "value-paginator",
+  "homepage": "https://github.com/chenshidong/paginator",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/paginator.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "paginator.js"
+    ],
+    "alias": {
+        "$":"$",
+        "value-base":"value/base/1.0.0/base"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

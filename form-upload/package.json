@@ -1,0 +1,32 @@
+{
+  "family": "value",
+  "name": "form-upload",
+  "version": "1.0.0",
+  "description": "value-form-upload",
+  "homepage": "https://github.com/chenshidong/form-upload",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/form-upload.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "form-upload.js"
+    ],
+    "alias": {
+        "$":"$",
+        "value-form-widget":"value/form/1.0.0/form-widget",
+        "value-upload":"value/upload/1.0.0/upload"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

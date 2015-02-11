@@ -1,0 +1,32 @@
+{
+  "family": "value",
+  "name": "form-text-mobile",
+  "version": "1.0.1",
+  "description": "value-form-text-mobile",
+  "homepage": "https://github.com/chenshidong/form-text-mobile",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/form-text-mobile.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "form-text-mobile.js"
+    ],
+    "alias": {
+        "$":"$",
+        "value-form-text":"value/form-text/1.0.0/form-text",
+        "value-countdown":"value/countdown/1.0.0/countdown"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

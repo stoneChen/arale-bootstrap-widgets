@@ -1,0 +1,31 @@
+{
+  "family": "value",
+  "name": "form-buttons",
+  "version": "1.0.0",
+  "description": "value-form-buttons",
+  "homepage": "https://github.com/chenshidong/form-buttons",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/form-buttons.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "form-buttons.js"
+    ],
+    "alias": {
+        "$":"$",
+        "value-form-widget":"value/form/1.0.0/form-widget"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

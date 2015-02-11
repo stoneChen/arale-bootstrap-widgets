@@ -1,0 +1,31 @@
+{
+  "family": "value",
+  "name": "placeholder",
+  "version": "1.0.0",
+  "description": "value-placeholder",
+  "homepage": "https://github.com/chenshidong/placeholder",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/placeholder.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "placeholder.js"
+    ],
+    "alias": {
+        "$":"$",
+        "jq-placeholder":"jquery/placeholder/2.0.8/placeholder"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

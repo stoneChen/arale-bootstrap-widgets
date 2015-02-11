@@ -1,0 +1,31 @@
+{
+  "family": "value",
+  "name": "form-hidden",
+  "version": "1.0.0",
+  "description": "value-form-hidden",
+  "homepage": "https://github.com/chenshidong/form-hidden",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/form-hidden.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "form-hidden.js"
+    ],
+    "alias": {
+        "$":"$",
+        "value-form-widget":"value/form/1.0.0/form-widget"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

@@ -1,0 +1,11 @@
+<div class="form-group">
+    <label class="col-xs-2 control-label {{label.requiredCls}}">{{label.text}}</label>
+
+    <div class="col-xs-10">
+        {{#each dataList}}
+            <label class="checkbox-inline">
+                <input type="checkbox" name="{{../name}}" value="{{value}}" {{dealCheckboxChecked value ../checked}}/>{{label}}
+            </label>
+        {{/each}}
+    </div>
+</div>

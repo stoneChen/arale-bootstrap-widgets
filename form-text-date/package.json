@@ -1,0 +1,32 @@
+{
+  "family": "value",
+  "name": "form-text-date",
+  "version": "1.0.0",
+  "description": "datepicker",
+  "homepage": "https://github.com/pengfei/form-text-date",
+  "author": "xupf",
+  "maintainers": [
+    "xupf"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pengfei/form-text-date.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "form-text-date.js"
+    ],
+      "alias": {
+          "$":"$",
+          "value-form-text":"value/form-text/1.0.0/form-text",
+          "datetimepicker":"value/datetimepicker/3.1.3/datetimepicker"
+      },
+    "devAlias": {},
+    "engines": {}
+  }
+}

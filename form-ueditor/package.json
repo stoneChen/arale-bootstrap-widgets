@@ -1,0 +1,31 @@
+{
+  "family": "value",
+  "name": "form-ueditor",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "https://github.com/chenshidong/form-ueditor",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/form-ueditor.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "form-ueditor.js"
+    ],
+    "alias": {
+      "$":"$",
+      "value-form-widget":"value/form/1.0.0/form-widget"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

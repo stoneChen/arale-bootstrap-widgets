@@ -1,0 +1,40 @@
+{
+  "family": "value",
+  "name": "datagrid",
+  "version": "1.0.0",
+  "description": "value-datagrid",
+  "homepage": "https://github.com/chenshidong/datagrid",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/datagrid.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "datagrid.js"
+    ],
+    "alias": {
+        "$":"$",
+        "backbone":"gallery/backbone/1.1.0/backbone",
+        "handlebars":"gallery/handlebars/1.0.2/runtime",
+        "value-data-source":"value/datasource/1.0.0/datasource",
+        "value-base-widget":"value/base/1.0.0/base",
+        "value-form-text":"value/form-text/1.0.0/form-text",
+        "value-form-select":"value/form-select/1.0.0/form-select",
+        "value-form-buttons": "value/form-buttons/1.0.0/form-buttons",
+        "value-form-radio": "value/form-radio/1.0.0/form-radio",
+        "value-form-checkbox": "value/form-checkbox/1.0.0/form-checkbox",
+        "value-paginator":  "value/paginator/1.0.0/paginator"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

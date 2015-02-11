@@ -1,0 +1,31 @@
+{
+  "family": "value",
+  "name": "base",
+  "version": "1.0.0",
+  "description": "value-base",
+  "homepage": "https://github.com/chenshidong/base",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/base.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "base.js"
+    ],
+    "alias": {
+        "arale-widget":"arale/widget/1.1.1/widget",
+        "arale-templatable":"arale/templatable/0.9.2/templatable"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

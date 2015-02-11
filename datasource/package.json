@@ -1,0 +1,31 @@
+{
+  "family": "value",
+  "name": "datasource",
+  "version": "1.0.0",
+  "description": "value-datasource",
+  "homepage": "https://github.com/chenshidong/datasource",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/datasource.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "datasource.js"
+    ],
+    "alias": {
+        "$":"$",
+        "arale-base":"arale/base/1.1.1/base"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

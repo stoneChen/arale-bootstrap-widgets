@@ -1,0 +1,28 @@
+<tr>
+    {{renderItemData itemData tableCfg}}
+
+    {{#if tableCfg.operators}}
+        <td>
+            {{#each ../btnList}}
+                {{#if dropdown}}
+                    <div class="btn-group">
+                        <a href="javascript:void(0)" class="btn btn-{{type}} btn-{{size}} dropdown-toggle" data-toggle="dropdown">
+                            {{btnTextRet}}
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+
+                        {{#each dropdownItems}}
+                            <li>
+                                <a href="javascript:void(0)" data-btnkey="{{btnkey}}">{{{btnTextRet}}}</a>
+                            </li>
+                        {{/each}}
+                        </ul>
+                    </div>
+                {{else}}
+                <button type="button" class="btn btn-{{size}} btn-{{type}}" data-btnkey="{{btnkey}}" >{{btnTextRet}}</button>&nbsp;
+                {{/if}}
+            {{/each}}
+        </td>
+    {{/if}}
+</tr>

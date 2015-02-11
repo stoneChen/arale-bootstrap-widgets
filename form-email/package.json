@@ -1,0 +1,31 @@
+{
+  "family": "value",
+  "name": "form-email",
+  "version": "1.0.0",
+  "description": "value-email",
+  "homepage": "https://github.com/chenshidong/form-email",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/form-email.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "form-email.js"
+    ],
+    "alias": {
+        "$":"$",
+        "value-form-text":"value/form-text/1.0.0/form-text"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

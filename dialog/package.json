@@ -1,0 +1,32 @@
+{
+  "family": "value",
+  "name": "dialog",
+  "version": "1.0.0",
+  "description": "value-dialog",
+  "homepage": "https://github.com/chenshidong/dialog",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/dialog.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "dialog.js"
+    ],
+    "alias": {
+        "$":"$",
+        "bootstrap":"gallery/bootstrap/3.2.0/bootstrap",
+        "value-base-widget":"value/base/1.0.0/base"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

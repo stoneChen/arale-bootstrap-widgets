@@ -1,0 +1,31 @@
+{
+  "family": "value",
+  "name": "form-radio",
+  "version": "1.0.0",
+  "description": "value-radio",
+  "homepage": "https://github.com/chenshidong/form-radio",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/form-radio.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "form-radio.js"
+    ],
+    "alias": {
+        "$":"$",
+        "value-form-widget":"value/form/1.0.0/form-widget"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

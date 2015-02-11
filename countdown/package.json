@@ -1,0 +1,32 @@
+{
+  "family": "value",
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "value-countdown",
+  "homepage": "https://github.com/chenshidong/countdown",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/countdown.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "countdown.js"
+    ],
+    "alias": {
+        "$":"$",
+        "moment":"gallery/moment/2.8.3/moment",
+        "value-base-widget": "value/base/1.0.0/base"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

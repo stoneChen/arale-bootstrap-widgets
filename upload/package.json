@@ -1,0 +1,30 @@
+{
+  "family": "value",
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "value-upload",
+  "homepage": "https://github.com/chenshidong/upload",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/upload.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "upload.js"
+    ],
+    "alias": {
+        "$":"$"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "family": "value",
+  "name": "form-ckeditor",
+  "version": "1.0.0",
+  "description": "value-ckeditor",
+  "homepage": "https://github.com/chenshidong/form-ckeditor",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/form-ckeditor.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "form-ckeditor.js"
+    ],
+    "alias": {
+        "$":"$",
+        "value-form-widget":"value/form/1.0.0/form-widget"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

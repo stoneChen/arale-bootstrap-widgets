@@ -1,0 +1,33 @@
+{
+  "family": "value",
+  "name": "form",
+  "version": "1.0.0",
+  "description": "value-form",
+  "homepage": "https://github.com/chenshidong/form",
+  "author": "stone",
+  "maintainers": [
+    "stone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chenshidong/form.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "form.js",
+      "form-widget.js"
+    ],
+    "alias": {
+        "$":"$",
+        "validator":"jquery/validator/1.11.1/validator-bootstrap3",
+        "value-base-widget":"value/base/1.0.0/base"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

@@ -1,0 +1,7 @@
+<div class="search-item">
+    <select class="form-control">
+        {{#each dataList}}
+            <option value="{{value}}" {{dealSelected value ../selected}}>{{label}}</option>
+        {{/each}}
+    </select>
+</div>

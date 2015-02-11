@@ -1,0 +1,7 @@
+<div class="form-group {{#if verticalLayout}}vertical-form-group{{/if}}">
+    <div class="col-xs-offset-{{offsetType}} col-xs-10">
+        {{#each btns}}
+            <button type="button" class="btn btn-{{type}} {{#if fullXControl}}btn-block{{/if}}" data-btnkey="{{btnkey}}">{{text}}</button>
+        {{/each}}
+    </div>
+</div>

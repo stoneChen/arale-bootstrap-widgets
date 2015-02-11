@@ -1,0 +1,11 @@
+<div class="form-group {{#if verticalLayout}}vertical-form-group{{/if}}">
+    <label class="col-xs-2 control-label {{label.requiredCls}}">{{label.text}}</label>
+
+    <div class="col-xs-10">
+        <select class="form-control" name="{{name}}" {{#if disabled}}disabled{{/if}}>
+        {{#each dataList}}
+            <option value="{{value}}" {{dealSelected value ../selected}}>{{label}}</option>
+        {{/each}}
+        </select>
+    </div>
+</div>
